@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: dt Microsoft, Microsoft, LIC=GE701-CQ2T7-D1GPR-KGTDQ-9EMB3-Y3HMI
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.37.0.0
+Toolchain Path:  D:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      CMSIS_AGDI.dll V1.33.12.0
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+C:\Users\HIAPAD\Desktop\DT\南科大\software\Examples\uart\project\DT5M8x.uvprojx
+Project File Date:  07/17/2023
+
+<h2>Output:</h2>
+  
+Warning: *** SUPPORT EXPIRED, NEW PRODUCT SERIAL NUMBER REQUIRED ***
+         *** Running with Code Size Limit: 32K                   ***
+*** Using Compiler 'V5.05 update 1 (build 106)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+Rebuild target 'demo'
+assembling startup_DT5M8x.s...
+compiling adc.c...
+compiling main.c...
+compiling clk.c...
+compiling audio.c...
+compiling system_DT5M8x.c...
+compiling DT5M8x_it.c...
+compiling gpio.c...
+compiling pwm.c...
+compiling i2c.c...
+compiling spi.c...
+..\Library\StdPeriph_Driver\src\spi.c(10): warning:  #550-D: variable "r" was set but never used
+  	uint32_t r;
+..\Library\StdPeriph_Driver\src\spi.c: 1 warning, 0 errors
+compiling timer.c...
+compiling rtc.c...
+compiling uart1.c...
+compiling wdt.c...
+compiling systick.c...
+compiling rcc.c...
+linking...
+Program Size: Code=1640 RO-data=212 RW-data=12 ZI-data=1540  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin  .\Objects\DT5M8x.axf --output DT5M8x.bin
+After Build - User command #2: build_hex.bat
+C:\Users\HIAPAD\Desktop\DT\南科大\software\Examples\uart\project>b2f DT5M8x.bin DT5M8x.txt 32 
+C:\Users\HIAPAD\Desktop\DT\南科大\software\Examples\uart\project>copy DT5M8x.txt code_rom 
+已复制         1 个文件。
+C:\Users\HIAPAD\Desktop\DT\南科大\software\Examples\uart\project>b2f DT5M8x.bin bios.hex 32 
+C:\Users\HIAPAD\Desktop\DT\南科大\software\Examples\uart\project>copy /y bios.hex .\code_rom.hex 
+已复制         1 个文件。
+".\Objects\DT5M8x.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                www.dtchip.com/Keil.DTChip_DFP.0.1.2.pack
+                Keil.DTChip_DFP.0.1.2
+                DTChip DT5Mxxxx Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  D:/keil5/Keil/DTChip_DFP/0.1.2/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

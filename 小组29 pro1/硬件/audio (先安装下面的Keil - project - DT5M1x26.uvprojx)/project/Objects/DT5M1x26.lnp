@@ -1,0 +1,24 @@
+--cpu Cortex-M0+
+".\objects\main.o"
+".\objects\dt5m1x26_it.o"
+".\objects\startup_dt5m1x26.o"
+".\objects\system_dt5m1x26.o"
+".\objects\dt5m1x26_adc.o"
+".\objects\dt5m1x26_audio.o"
+".\objects\dt5m1x26_gpio.o"
+".\objects\dt5m1x26_i2c.o"
+".\objects\dt5m1x26_pwm.o"
+".\objects\dt5m1x26_rcc.o"
+".\objects\dt5m1x26_rtc.o"
+".\objects\dt5m1x26_spi.o"
+".\objects\dt5m1x26_systick.o"
+".\objects\dt5m1x26_timer.o"
+".\objects\dt5m1x26_uart.o"
+".\objects\dt5m1x26_wdt.o"
+".\objects\dt5m1x26_aes.o"
+".\objects\dt5m1x26_cmp.o"
+".\objects\dt5m1x26_flash.o"
+--library_type=microlib --strict --scatter ".\Objects\DT5M1x26.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\DT5M1x26.map" -o .\Objects\DT5M1x26.axf

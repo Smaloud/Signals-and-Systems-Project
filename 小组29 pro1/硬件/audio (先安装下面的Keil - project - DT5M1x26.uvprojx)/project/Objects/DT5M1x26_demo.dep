@@ -1,0 +1,421 @@
+Dependencies for Project 'DT5M1x26', Target 'demo': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\usr\src\main.c)(0x6582E22A)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+I (..\usr\src\play_audio.h)(0x64D1EE90)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
+F (..\usr\src\DT5M1x26_it.c)(0x64D1EEAC)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_it.o --omf_browse .\objects\dt5m1x26_it.crf --depend .\objects\dt5m1x26_it.d)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+I (..\usr\src\play_audio.h)(0x64D1EE90)
+F (..\Library\Source\startup_DT5M1x26.s)(0x64D344D4)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include--pd "__UVISION_VERSION SETA 536"--list .\listings\startup_dt5m1x26.lst --xref -o .\objects\startup_dt5m1x26.o --depend .\objects\startup_dt5m1x26.d)
+F (..\Library\Source\system_DT5M1x26.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\system_dt5m1x26.o --omf_browse .\objects\system_dt5m1x26.crf --depend .\objects\system_dt5m1x26.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+F (..\Library\StdPeriph_Driver\src\dt5m1x26_adc.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_adc.o --omf_browse .\objects\dt5m1x26_adc.crf --depend .\objects\dt5m1x26_adc.d)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+F (..\Library\StdPeriph_Driver\src\dt5m1x26_audio.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_audio.o --omf_browse .\objects\dt5m1x26_audio.crf --depend .\objects\dt5m1x26_audio.d)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+F (..\Library\StdPeriph_Driver\src\dt5m1x26_gpio.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_gpio.o --omf_browse .\objects\dt5m1x26_gpio.crf --depend .\objects\dt5m1x26_gpio.d)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+F (..\Library\StdPeriph_Driver\src\dt5m1x26_i2c.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_i2c.o --omf_browse .\objects\dt5m1x26_i2c.crf --depend .\objects\dt5m1x26_i2c.d)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+F (..\Library\StdPeriph_Driver\src\dt5m1x26_pwm.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_pwm.o --omf_browse .\objects\dt5m1x26_pwm.crf --depend .\objects\dt5m1x26_pwm.d)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+F (..\Library\StdPeriph_Driver\src\dt5m1x26_rcc.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_rcc.o --omf_browse .\objects\dt5m1x26_rcc.crf --depend .\objects\dt5m1x26_rcc.d)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+F (..\Library\StdPeriph_Driver\src\dt5m1x26_rtc.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_rtc.o --omf_browse .\objects\dt5m1x26_rtc.crf --depend .\objects\dt5m1x26_rtc.d)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+F (..\Library\StdPeriph_Driver\src\dt5m1x26_spi.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_spi.o --omf_browse .\objects\dt5m1x26_spi.crf --depend .\objects\dt5m1x26_spi.d)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+F (..\Library\StdPeriph_Driver\src\dt5m1x26_systick.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_systick.o --omf_browse .\objects\dt5m1x26_systick.crf --depend .\objects\dt5m1x26_systick.d)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+F (..\Library\StdPeriph_Driver\src\dt5m1x26_timer.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_timer.o --omf_browse .\objects\dt5m1x26_timer.crf --depend .\objects\dt5m1x26_timer.d)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+F (..\Library\StdPeriph_Driver\src\dt5m1x26_uart.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_uart.o --omf_browse .\objects\dt5m1x26_uart.crf --depend .\objects\dt5m1x26_uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+F (..\Library\StdPeriph_Driver\src\dt5m1x26_wdt.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_wdt.o --omf_browse .\objects\dt5m1x26_wdt.crf --depend .\objects\dt5m1x26_wdt.d)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+F (..\Library\StdPeriph_Driver\src\dt5m1x26_aes.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_aes.o --omf_browse .\objects\dt5m1x26_aes.crf --depend .\objects\dt5m1x26_aes.d)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+F (..\Library\StdPeriph_Driver\src\dt5m1x26_cmp.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_cmp.o --omf_browse .\objects\dt5m1x26_cmp.crf --depend .\objects\dt5m1x26_cmp.d)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)
+F (..\Library\StdPeriph_Driver\src\dt5m1x26_flash.c)(0x64D344D4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\usr\inc -I ..\Library\CMSIS\Include -I ..\Library\StdPeriph_Driver\inc -I ..\Library\Device\ChipWise\DT5M1x26\Include -I ..\Library\Source -I ..\usr\src-IC:\Users\61066\AppData\Local\Arm\Packs\Keil\DTChip_DFP\0.1.3\Device\Include-D__UVISION_VERSION="536"-o .\objects\dt5m1x26_flash.o --omf_browse .\objects\dt5m1x26_flash.crf --depend .\objects\dt5m1x26_flash.d)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_flash.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\DT5M1x26.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x64D344D4)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x64D344D4)
+I (..\Library\Device\ChipWise\DT5M1x26\Include\system_DT5M1x26.h)(0x64D344D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rcc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_gpio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_i2c.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_pwm.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_rtc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_spi.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_timer.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_uart.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_wdt.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_audio.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_systick.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_adc.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_cmp.h)(0x64D344D4)
+I (..\Library\StdPeriph_Driver\inc\dt5m1x26_aes.h)(0x64D344D4)

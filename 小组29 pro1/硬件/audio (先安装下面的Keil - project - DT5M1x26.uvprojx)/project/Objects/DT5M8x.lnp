@@ -1,0 +1,22 @@
+--cpu Cortex-M0+
+".\objects\dt5m8x_it.o"
+".\objects\main.o"
+".\objects\startup_dt5m8x.o"
+".\objects\system_dt5m8x.o"
+".\objects\adc.o"
+".\objects\audio.o"
+".\objects\clk.o"
+".\objects\gpio.o"
+".\objects\i2c.o"
+".\objects\pwm.o"
+".\objects\rtc.o"
+".\objects\spi.o"
+".\objects\timer.o"
+".\objects\uart1.o"
+".\objects\wdt.o"
+".\objects\systick.o"
+".\objects\rcc.o"
+--library_type=microlib --strict --scatter ".\Objects\DT5M8x.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\DT5M8x.map" -o .\Objects\DT5M8x.axf
